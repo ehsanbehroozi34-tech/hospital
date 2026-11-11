@@ -1,0 +1,15 @@
+{
+  "name": "Automated Medical Job Outreach",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "forwardPorts": [3000, 5432],
+  "portsAttributes": {
+    "3000": {
+      "label": "Klinik Finder Web App",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    }
+  },
+  "postCreateCommand": "echo 'Codespace ready! Run npm run dev or let docker-compose manage the services.'"
+}
