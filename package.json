@@ -12,6 +12,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@electric-sql/pglite": "^0.5.16",
     "@types/nodemailer": "^8.0.2",
     "dotenv": "17.3.1",
     "drizzle-orm": "0.45.2",
